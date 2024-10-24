@@ -21,10 +21,10 @@ Moreno has set a clear goal: Design marketing strategies aimed at converting cas
 In order to answer the business questions, I follow the steps of the data analysis process:
 
 - [Ask](#ask)
-Prepare
-Process
-Analyse
-Share
+- [Prepare](#prepare)
+- [Process](#process)
+- [Analyse](#analyse)
+- [Share](#share)
 - [Act](#act) 
 
 ## Ask
