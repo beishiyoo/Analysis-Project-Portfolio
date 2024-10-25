@@ -27,6 +27,7 @@ In order to answer the business questions, I follow the steps of the data analys
 - [Act](#act) 
 
 ## Ask
+In the "Ask" phase, I am defining the analysis scope and considering the key stakeholders to increase the likelihood of actionable insights that align with stakeholder expectations.
 ### Business Task:  
 Identify key differences between casual riders and annual members, providing insights to develop targeted marketing strategies that convert casual riders into annual member.
 ### Key stakeholders:  
@@ -35,6 +36,23 @@ Identify key differences between casual riders and annual members, providing ins
 * **Cyclistic Executive Team**: The decision-makers who will approve or reject the recommended marketing strategies based on the analysis.
   
 ## Prepare
+In the "Prepare" phase, I focus on preparing data for analysis through data collection, storing, organising, sort and filtering. I assess the quality of data using the ROCCC criteria, ensuring it is reliable, origial, comprehensive, current and cited to minimise the risk of error during analysis.
+### Data sources:
+The data is The data has been made publicly available by Motivate International Inc. under a data license agreement. 
+### Inspect the data using posit cloud:
+Upload files into cloud directory. Go to the targeted directory using `getwd()` and `setwd()` and read the data, including other necessary packages
+```{r}
+install.packages("readr")
+library(readr)
+setwd("/cloud/project/2023_Oct_to_2024_Sept")
+df202409 <- read.csv("202409-divvy-tripdata.csv")
+str(df20240)
+```
+
+### Data organisation
+The data is strcutured as a data frame. Each row in the dataset is uniquely identified by an ID, representing a unit of observation for individual trips. The data is segmented into different files corresponding to each month. The data includes following columns: "ride_id," "rideable_type," "started_at," "ended_at," "start_station_name," "start_station_id," "end_station_name," "end_station_id," "start_lat," "start_lng," "end_lat," "end_lng," and "member_casual."
+### Quality of data:
+This dataset is reliable as it comprises internal data generated directly from the company’s operations, ensuring its originality. It is comprehensive, including detailed information about trips of the two targeted customer groups. Furthermore, the dataset is current, reflecting data collected over the past few year. Lastly, the original source of the data is formally referenced on the company’s website, ensuring proper citation.
 
 ## Process
 ## Analyse
