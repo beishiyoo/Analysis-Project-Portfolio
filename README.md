@@ -3,8 +3,8 @@ This repository showcases a collection of data analysis projects that highlight 
 ## Projects
 1. Google Data Analytics Capstone Project - How does a bike-share navigate speedy success?  
  * Overview
- * Tools
- * Key Deliverables
+ * Tools: Excel Power Query, Excel Pivot Tables, Power BI
+ * Key Deliverables: PowerBI Dashboard
 ## How to Navigate
 Each project folder contains:
 * README.md: A detailed overview of the project, including objectives, methods, and results.
