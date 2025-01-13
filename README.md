@@ -2,7 +2,7 @@
 This repository showcases a collection of data analysis projects that highlight my skills in data manipulation, visualization, and problem-solving using tools like Excel, SQL, R and Power BI. Each project folder includes the datasets, analysis workflows, and key insights.
 ## Projects
 1. Google Data Analytics Capstone Project - How does a bike-share navigate speedy success?  
- * Overview
+ * Overview: The goal of the project was to analyse the bike-share data to uncover insights about user behavior and usage patterns, which can help the company make strategic decisions to navigate toward success. The dataset includes..
  * Tools: Excel Power Query, Excel Pivot Tables, Power BI
  * Key Deliverables: PowerBI Dashboard
 ## How to Navigate
